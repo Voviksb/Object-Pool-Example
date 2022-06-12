@@ -11,14 +11,6 @@ public class PoolMono<T> where T : MonoBehaviour
 
     private List<T> pool;
 
-/*    public PoolMono(T prefab, int count)
-    {
-        this.prefab = prefab;
-        this.container = null;
-
-        this.CreatePool(count);
-    }
-*/
     public PoolMono(T prefab, int count, Transform container)
     {
         this.prefab = prefab;
